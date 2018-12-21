@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Booststrap 2nd class</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class=" col-sm-4" >
+            <hr/>
+                <form>
+                    <div class="form-group">
+                        <label for="firstName"> First Name</label>
+                        <input type="text" Name="first_name" id= "firstName" class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label> Last Name</label>
+                        <input type="text" Name="Last_name"class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="text" Name="Email_Address"class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="text" Name="Password"class="form-control">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="number" Name="Phone_number"class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>Date of Birth</label>
+                        <input type="date" Name="date_of_birthg"class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label><input type="radio" Name="gender" value="male"> Male</label>
+                        <label><input type="radio" Name="gender" value="female"> Female</label>
+                    </div>
+
+                <div class="form-group">
+                    <lebel>Address</lebel>
+                    <textarea name="address" class="form-control" rows="5"></textarea>
+                </div>
+                    <div class="form-group">
+                        <lebel>District Name</lebel>
+                        <select name="distri_ctname" class="form-control" > <!--multiple name o use kora jete pare.to select multiple district-->
+                            <option>----select---</option>
+                            <option value="dhaka">Dhaka</option>
+                            <option>Gazipur</option>
+                            <option>tangail</option>
+                            <option>Narayangonj</option>
+                            <option>Norsingdi</option>
+                            <option>Monsigonj</option>
+                            <option>Mymensing</option>
+                            <option>Comilla</option>
+                            <option>Noakhali</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <lebel>Image</lebel>
+                        <input type="file" name="image"  accept="image/*" multiple/>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                        <input type="checkbox" name="agree" value="agree" class="form-check-input"/>HTML
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="agree" value="agree" class="form-check-input"/>CSS
+                        </label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input type="checkbox" name="agree" value="agree" class="form-check-input"/>Bootstrap
+                        </label>
+                    </div>
+                    <div class="form-group">
+
+                            <input type="submit" name="btn" value="submit" class="btn btn-success btn-block"/>
+                    </div>
+
+                </form>
+
+        </div>
+        <div class="col-sm-8">
+            <hr/>
+            <div class="form-group row">
+                <label class="col-form-label col-sm-3"> First Name</label>
+                <div class="col-sm-9">
+                    <input type="text" name="first_name" class="form-control">
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+
+<script src="js/botstrap.js"></script>
+</body>
+</html>
